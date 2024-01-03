@@ -16,7 +16,7 @@ export const Datos = () => {
             <input className="form-control form-control-lg m-2" type="text" placeholder="Cedula" aria-label=".form-control-lg example"/>
             <input className="form-control form-control-lg m-2" type="text" placeholder="Semestre/Trimestre" aria-label=".form-control-lg example"/>
 			</div>
-			<Link to="/">
+			<Link to="/pago">
 				<button className="btn btn-primary">Continuar</button>
 			</Link>
 		</div>

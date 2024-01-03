@@ -10,6 +10,7 @@ import { Pregrado } from "./pages/pregrado";
 import { Posgrado } from "./pages/posgrado";
 import { Prep } from "./pages/prep";
 import { Datos } from "./pages/datos";
+import { Realizado } from "./pages/realizado";
 import Pago from "./pages/pago";
 import injectContext from "./store/appContext";
 
@@ -37,6 +38,7 @@ const Layout = () => {
                         <Route element={<Prep />} path="/prep" />
                         <Route element={<Datos />} path="/datos" />
                         <Route element={<Pago />} path="/pago" />
+                        <Route element={<Realizado />} path="/pagado" />
                         <Route element={<Single />} path="/single/:theid" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
